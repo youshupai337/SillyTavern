@@ -11,23 +11,20 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "npm run start",
+      "command": "bash start.sh",
       "runAtStart": true
     },
     "start-multi": {
       "name": "start-multi",
-      "command": "npm run start-multi",
-      "runAtStart": false
+      "command": "npm run start-multi"
     },
     "pkg": {
       "name": "pkg",
-      "command": "npm run pkg",
-      "runAtStart": false
+      "command": "npm run pkg"
     },
     "postinstall": {
       "name": "postinstall",
-      "command": "npm run postinstall",
-      "runAtStart": false
+      "command": "npm run postinstall"
     }
   }
 }
