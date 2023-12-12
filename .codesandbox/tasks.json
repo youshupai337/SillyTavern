@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "bash start.sh"
+      "command": "npm install"
     }
   ],
 

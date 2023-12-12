@@ -1,0 +1,29 @@
+listen: true
+port: 8000
+whitelistMode: false
+whitelist:
+  - 127.0.0.1
+basicAuthMode: true
+basicAuthUser:
+  username: "9"
+  password: "9"
+enableCorsProxy: false
+securityOverride: false
+autorun: true
+disableThumbnails: false
+thumbnailsQuality: 95
+allowKeysExposure: false
+skipContentCheck: false
+disableChatBackup: false
+requestOverrides: []
+enableExtensions: true
+extras:
+  disableAutoDownload: false
+  classificationModel: Cohee/distilbert-base-uncased-go-emotions-onnx
+  captioningModel: Xenova/vit-gpt2-image-captioning
+  embeddingModel: Xenova/all-mpnet-base-v2
+  promptExpansionModel: Cohee/fooocus_expansion-onnx
+openai:
+  randomizeUserId: false
+deepl:
+  formality: default
